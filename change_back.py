@@ -10,7 +10,7 @@ def numOfDays(date1, date2):
      
 # Set times (today, end)
 date1 = date.today()
-date2 = date(2023, 1, 13)
+date2 = date(2023, 5, 13)
 
 #find number of days remaining
 diff = numOfDays(date1, date2)
