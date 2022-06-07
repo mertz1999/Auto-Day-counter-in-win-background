@@ -16,7 +16,7 @@ date2 = date(2023, 1, 13)
 diff = numOfDays(date1, date2)
 
 # Read image
-img = cv2.imread("C:\\Users\\Mertz\\Desktop\\Temp\\BACK.jpg")
+img = cv2.imread("BACK.jpg")
 img_shape = img.shape
 
 # Setting for TEXT
@@ -40,5 +40,5 @@ image = cv2.putText(
 		)
 
 # Save and change background
-cv2.imwrite("C:\\Users\\Mertz\\Desktop\\Temp\\BACK_changed.jpg", image)
-ctypes.windll.user32.SystemParametersInfoW(20, 0, "C:\\Users\\Mertz\\Desktop\\Temp\\BACK_changed.jpg" , 0)
+cv2.imwrite("C:\\.......\\BACK_changed.jpg", image)
+ctypes.windll.user32.SystemParametersInfoW(20, 0, "C:\\.......\\BACK_changed.jpg" , 0)
